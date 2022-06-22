@@ -20,7 +20,7 @@
 
 // try {
 //   throw new Error(
-      
+
 //   )
 
 // } catch (err) {
@@ -29,8 +29,6 @@
 // } finally {
 //   console.log(sum);
 // }
-
-
 
 // const user = {
 //   name: "John",
@@ -55,7 +53,6 @@
 
 // alert(sum);
 
-
 // let isPrime = (number) => {
 //   if(number % 2 == 0) {
 //     console.log("Number Is Prime");
@@ -79,9 +76,8 @@
 
 // console.log(random());
 
-
-function convertInt(str) {
-  return parseInt(str, 2)
+function getCapitalLetter(str) {
+  return str[0].toUpperCase() + str.slice(1);
 }
 
-console.log(convertInt("10011"));
+console.log(getCapitalLetter("Hello"));
